@@ -19,7 +19,7 @@ class DummyLogger(object):
             if not os.path.exists(dirname):
                 os.makedirs(dirname)
                 os.mkdir(os.path.join(dirname, 'metrics'))
-                self.log_json(config, os.path.join(self.dirname, Constants._CONFIG_FILE))
+            self.log_json(config, os.path.join(self.dirname, Constants._CONFIG_FILE))
         if config['logging']:
             self.f_metric = open(os.path.join(self.dirname, 'metrics', 'metrics.log'), 'a')
 
