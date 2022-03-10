@@ -5,7 +5,7 @@ devset: '/content/drive/MyDrive/Qgen_with_GraphNeuralNetworks/Preprocessed_Squad
 testset: '/content/drive/MyDrive/Qgen_with_GraphNeuralNetworks/Preprocessed_Squad/squad-split1/test_sent_pre.v5.json'
 pretrained_word_embed_file: null
 saved_vocab_file: '/content/drive/MyDrive/Qgen_with_GraphNeuralNetworks/Preprocessed_Squad/squad-split1/vocab_model_70k'
-pretrained: '/content/drive/MyDrive/Qgen_with_GraphNeuralNetworks/output_dir/squad-split1/graph2seq_static_bert_finetune_word_70k_0.4_bs_60/params.saved'
+pretrained: '/content/drive/MyDrive/Qgen_with_GraphNeuralNetworks/output_dir/squad-split1/graph2seq_static_bert_finetune_word_70k_0.4_bs_60'
 
 # Output
 out_dir: '/content/drive/MyDrive/Qgen_with_GraphNeuralNetworks/output_dir/squad-split1/graph2seq_static_bert_finetune_word_70k_0.4_bs_60'
